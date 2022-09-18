@@ -1,7 +1,7 @@
 from importlib_metadata import pathlib
 import streamlit as st
 import tensorflow as tf
-from tensorflow import keras
+from tensorflow-cpu import keras
 import pathlib
 import datetime
 import os
